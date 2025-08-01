@@ -1,0 +1,47 @@
+body {
+  font-family: 'Josefin', sans;
+  background-color: #998DA0;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #63585E;
+}
+
+.navbar {
+  background-color: #C7BACE;
+  padding: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #63585E;
+  margin: 0 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.avatar {
+  width: 200px;
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ffd54f;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #fbc02d;
+}
