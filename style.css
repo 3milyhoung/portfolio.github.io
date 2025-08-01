@@ -3,7 +3,7 @@ body {
   background-color: #998DA0;
   margin: 0;
   padding: 0;
-  text-align: left;
+  text-align: justify;
   color: #63585E;
 }
 
@@ -21,6 +21,10 @@ body {
   transition: color 0.3s;
 }
 
+.navbar a:hover {
+  color: #C7BACE;
+}
+
 .container {
   padding: 2rem;
 }
@@ -34,8 +38,8 @@ body {
   display: inline-block;
   margin-top: 2rem;
   padding: 0.75rem 1.5rem;
-  background-color: #ffd54f;
-  color: #333;
+  background-color: #C7BACE;
+  color: #63585E;
   text-decoration: none;
   font-weight: bold;
   border-radius: 8px;
@@ -43,5 +47,5 @@ body {
 }
 
 .btn:hover {
-  background-color: #fbc02d;
+  background-color: #C7BACE;
 }
